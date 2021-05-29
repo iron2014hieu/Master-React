@@ -14,7 +14,7 @@
 5. Sử dụng CRA để tạo project React
 6. Sơ lượt về cấu trúc folder của ReactJs
 7. Setup Prettier và ESLint
-8. CICD và Deploy với Netlify
+8. CICD và Deploy với Vercel
 
 ## React căn bản
 
