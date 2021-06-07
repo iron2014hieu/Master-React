@@ -16,38 +16,82 @@
 7. Setup Prettier và ESLint
 8. CICD và Deploy với Vercel và Netlify
 
-## React căn bản
+## 3. React căn bản
 
-1. Virtual DOM là gì
+1. DOM và Virtual DOM là gì
 2. JSX trong ReactJS
-3. Mount và Render
+3. ReactDOM.render
 4. Class component và functional compnent
 5. Life cycle trong React Class
 6. State và setState
-7. Prop
-8. Render danh sách
+7. Prop và PropTypes
+8. Các cách render trong react
 9. constructor
 10. componentDidMount
 11. componentWillUnmount
 12. componentDidUpdate
-13. Tổng quan React hook và life cycle
+13. Sơ lượt về React Hooks
 14. useState
 15. useEffect
-16. Những thứ ảnh hưởng đến việc render của component
-17. useMemo
-18. useCallback
-19. custom hook
-20. Sử dụng Devtool debug căn bản
+16. Lỗi mutate state, props
+17. Các yếu tố ảnh hưởng đến việc render của component
+18. Higher Order Component
+19. React.memo
+20. useMemo
+21. useCallback
+22. ref, createRef, useRef, forwardRef
+23. custom hook, thử tạo useInputNumber và usePrevious
+24. useContext
+25. useReducer
+26. Sử dụng React Devtool để debug
 
-## Project Todo
+## Vấn đề CSS của React
 
-## Project Validate Form
+1. Vấn đề global CSS
+2. CSS, SCSS
+3. Atomic CSS
+4. CSS module
+5. CSS in JS (CSS inline, Styled Component)
+
+## Project Student Management
+
+1. Tạo nhanh UI bằng bootstrap
+2. Thêm logic state
+3. Chia component Input và Student
+4. Thêm chức năng cập nhật và xóa student
+
+## Project Validate Form với React Hook Form
+
+1. Tạo UI trang Register
+2. Áp dụng React hook form để validate
 
 ## React Router căn bản
 
-## Redux căn bản
+1. Tạo Route cho các page
+2. Link và NavLink
+3. Switch và exact
+4. Redirect
+5. Nested Route
+6. Not Found
+7. React Router hooks
+8. Xử lý query params với custom hook useQuery
 
-## Vấn đề CSS của React
+## Redux và Redux toolkit
+
+1. Tại sao dùng Redux và cách Redux hoạt động
+2. Cấu hình file reducer, store và Redux Dev Tools
+3. Cấu hình types và actions. Dùng HOC connect
+4. Dùng hook useSelector và useDispatch
+5. Middleware với redux-thunk
+6. Giới thiệu về Redux Toolkit
+   "immer": "^8.0.1",
+   "redux": "^4.0.0",
+   "redux-thunk": "^2.3.0",
+   "reselect": "^4.0.0"
+   Vì thế phải cài thêm react-redux
+7. Configure store
+8. Sử dụng reducer và action
+9. Sử dụng slice và asyncThunk
 
 ## Clone Shopee trang đăng ký
 
