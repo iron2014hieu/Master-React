@@ -83,15 +83,11 @@
 3. Cấu hình types và actions. Dùng HOC connect
 4. Dùng hook useSelector và useDispatch
 5. Middleware với redux-thunk
-6. Giới thiệu về Redux Toolkit
-   "immer": "^8.0.1",
-   "redux": "^4.0.0",
-   "redux-thunk": "^2.3.0",
-   "reselect": "^4.0.0"
-   Vì thế phải cài thêm react-redux
-7. Configure store
-8. Sử dụng reducer và action
-9. Sử dụng slice và asyncThunk
+6. Dùng immer để mutate state
+7. Giới thiệu về Redux Toolkit
+8. Configure store và root Reducer
+9. Sử dụng createReducer và createAction
+10. Sử dụng slice và asyncThunk
 
 ## Clone Shopee trang đăng ký
 
