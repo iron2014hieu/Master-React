@@ -1,8 +1,9 @@
-import { combineReducers } from 'redux'
-import counterReducer from './counter.reducer'
+import counterReducer from './components/Counter/counter.reducer'
+import profileReducer from './components/Profile/profile.reducer'
 
-const rootReducer = combineReducers({
-  counter: counterReducer
-})
+const rootReducer = {
+  counter: counterReducer,
+  profile: profileReducer
+}
 
 export default rootReducer
