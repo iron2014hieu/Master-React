@@ -92,10 +92,11 @@
 ## Clone Shopee trang đăng ký
 
 1. Khởi tạo Project, Setup Prettier, ESLint, jsconfig.json
-2. Cài một số package cần thiết. Setup CSS global
+2. Cài một số package cần thiết. Setup CSS global và fonts
 
 - Material để dùng 1 vài component nhỏ: `@material-ui/core, @material-ui/lab`
 - Redux để quản lý state: `@reduxjs/toolkit, react-redux`
+- React Router Dom cho Router: `react-router-dom`
 - Axios để fetch API: `axios`
 - classnames hỗ trợ set class cho component: `classnames`
 - date-fns để quản lý ngày giờ: `date-fns`
@@ -118,8 +119,10 @@
 - styled-components để CSS cho react: `styled-components`
 
 ```bash
-yarn add @material-ui/core @material-ui/lab @reduxjs/toolkit react-redux axios classnames date-fns dompurify lodash node-sass normalize.css prop-types query-string react-hook-form react-toastify styled-components
+yarn add @material-ui/core @material-ui/lab @reduxjs/toolkit react-redux react-router-dom axios classnames date-fns dompurify lodash node-sass normalize.css prop-types query-string react-hook-form react-toastify styled-components
 ```
+
+3. Setup Redux và Router
 
 ## Clone shopee trang đăng nhập
 
