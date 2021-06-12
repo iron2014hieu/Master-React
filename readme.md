@@ -87,7 +87,7 @@
 7. Giới thiệu về Redux Toolkit
 8. Configure store và root Reducer
 9. Sử dụng createReducer và createAction
-10. Sử dụng slice và asyncThunk
+10. Sử dụng createSlice và createAsyncThunk
 
 ## Clone Shopee trang đăng ký
 

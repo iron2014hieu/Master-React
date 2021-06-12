@@ -1,16 +1,30 @@
+import { unwrapResult } from '@reduxjs/toolkit'
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { getUser } from './profile.asyncActions'
+import { getUser } from './profile.slice'
 
 export default function Profile() {
   const profile = useSelector(state => state.profile.profile)
   const dispatch = useDispatch()
 
   useEffect(() => {
-    // Không giống dispatch 1 action
-    // getUser()(dispatch)
-    // Dispatch 1 async action giống y hệt 1 action thông thường
-    dispatch(getUser())
+    // dispatch(getUser())
+    //   .then(unwrapResult)
+    //   .then(payload => {
+    //     console.log('payload', payload)
+    //   })
+    //   .catch(error => {
+    //     console.log('error', error)
+    //   })
+    ;(async () => {
+      try {
+        const data = await dispatch(getUser())
+        const payload = unwrapResult(data)
+        console.log('payload', payload)
+      } catch (error) {
+        console.log('error', error)
+      }
+    })()
   }, [dispatch])
 
   return (

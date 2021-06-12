@@ -1,5 +1,5 @@
-import counterReducer from './components/Counter/counter.reducer'
-import profileReducer from './components/Profile/profile.reducer'
+import counterReducer from './components/Counter/counter.slice'
+import profileReducer from './components/Profile/profile.slice'
 
 const rootReducer = {
   counter: counterReducer,
