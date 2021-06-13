@@ -5,6 +5,7 @@ import Home from './pages/Home/Home'
 import NotFound from './pages/NotFound/NotFound'
 import Login from './pages/Auth/Login/Login'
 import Register from './pages/Auth/Register/Register'
+import RegisterLayout from './layouts/RegisterLayout/RegisterLayout'
 
 export default function Routes() {
   return (
@@ -13,10 +14,14 @@ export default function Routes() {
         <Home />
       </Route>
       <Route path={path.login}>
-        <Login />
+        <RegisterLayout title="Đăng nhập">
+          <Login />
+        </RegisterLayout>
       </Route>
       <Route path={path.register}>
-        <Register />
+        <RegisterLayout title="Đăng ký">
+          <Register />
+        </RegisterLayout>
       </Route>
       <Route path={path.notFound}>
         <NotFound />

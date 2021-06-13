@@ -94,7 +94,7 @@
 1. Khởi tạo Project, Setup Prettier, ESLint, jsconfig.json
 2. Cài một số package cần thiết. Setup CSS global và fonts
 3. Setup Redux và Router
-4. Code giao diện RegisterLayout
+4. Code giao diện RegisterLayout, Footer, HeaderRegister
 5. Code giao diện Register Page
 
 ## Clone shopee trang đăng nhập
