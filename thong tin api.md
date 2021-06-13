@@ -71,3 +71,6 @@ body
 ```
 
 Rules
+
+- email: required, length: 5-160, isEmail
+- password: required, length: 6-160

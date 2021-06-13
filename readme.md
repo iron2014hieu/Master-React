@@ -96,6 +96,10 @@
 3. Setup Redux và Router
 4. Code giao diện RegisterLayout, Footer, HeaderRegister
 5. Code giao diện Register Page, InputText, InputPassword
+6. Uncontrolled Components là gì
+7. Code validate Register Page
+8. Code Http class
+9. auth.slice
 
 ## Clone shopee trang đăng nhập
 
