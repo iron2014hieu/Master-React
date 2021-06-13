@@ -95,7 +95,7 @@
 2. Cài một số package cần thiết. Setup CSS global và fonts
 3. Setup Redux và Router
 4. Code giao diện RegisterLayout, Footer, HeaderRegister
-5. Code giao diện Register Page
+5. Code giao diện Register Page, InputText, InputPassword
 
 ## Clone shopee trang đăng nhập
 
