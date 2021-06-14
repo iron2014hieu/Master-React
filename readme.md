@@ -99,7 +99,10 @@
 6. Uncontrolled Components là gì
 7. Code validate Register Page
 8. Code Http class
-9. auth.slice
+9. Code auth.slice cho register, hoàn thiện apply API vào Register
+10. Cấu hình postman để test API
+11. Code UI trang đăng nhập
+12. Hoàn thiện trang đăng nhập
 
 ## Clone Shopee trang danh sách sản phẩm
 
