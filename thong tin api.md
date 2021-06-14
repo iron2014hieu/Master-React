@@ -1,6 +1,6 @@
 # Thông tin API
 
-URL: `https://api-ecom.duthanhduoc.com`
+URL: `https://api-ecom.duthanhduoc.com/`
 
 ## Format trả về
 

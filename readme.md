@@ -89,7 +89,7 @@
 9. Sử dụng createReducer và createAction
 10. Sử dụng createSlice và createAsyncThunk
 
-## Clone Shopee trang đăng ký
+## Clone Shopee trang đăng ký & đăng nhập
 
 1. Khởi tạo Project, Setup Prettier, ESLint, jsconfig.json
 2. Cài một số package cần thiết. Setup CSS global và fonts
@@ -100,8 +100,6 @@
 7. Code validate Register Page
 8. Code Http class
 9. auth.slice
-
-## Clone shopee trang đăng nhập
 
 ## Clone Shopee trang danh sách sản phẩm
 
