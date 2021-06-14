@@ -106,6 +106,11 @@
 
 ## Clone Shopee trang danh sách sản phẩm
 
+1. Code UI MainLayout
+2. Code UI Navbar
+3. Tách Popver Component
+4. Code UI Header
+
 ## Clone Shopee trang chi tiết sản phẩm
 
 ## Clone Shopee trang giỏ hàng
