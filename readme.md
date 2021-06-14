@@ -102,7 +102,7 @@
 9. Code auth.slice cho register, hoàn thiện apply API vào Register
 10. Cấu hình postman để test API
 11. Code UI trang Login
-12. Hoàn thiện trang Login
+12. Apply API cho trang Login
 
 ## Clone Shopee trang danh sách sản phẩm
 
