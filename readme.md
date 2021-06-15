@@ -107,9 +107,11 @@
 ## Clone Shopee trang danh sách sản phẩm
 
 1. Code UI MainLayout
-2. Code UI Navbar
+2. Code UI Navbar, cập nhật haldeAuthFulfilled, Fix bug trong initialState authSlice
 3. Tách Popver Component
 4. Code UI Header
+5. UnauthenticatedGuard
+6. Logout
 
 ## Clone Shopee trang chi tiết sản phẩm
 
