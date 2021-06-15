@@ -110,7 +110,7 @@
 2. Code UI Navbar, cập nhật haldeAuthFulfilled, Fix bug trong initialState authSlice
 3. Tách Popver Component, cập nhật PropTypes
 4. Code UI Header
-5. UnauthenticatedGuard
+5. UnauthenticatedGuard và AuthenticatedGuard
 6. Logout
 
 ## Clone Shopee trang chi tiết sản phẩm
