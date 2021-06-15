@@ -1,6 +1,7 @@
 # Thông tin API
 
 URL: `https://api-ecom.duthanhduoc.com/`
+Đối với các route cần xác thực => Gửi token lên bằng headers với key là `authorization`. Token phải bắt đầu bằng 'Bearer '
 
 ## Format trả về
 
@@ -139,6 +140,10 @@ Response
   }
 }
 ```
+
+## Logout: `/logout`
+
+Method: POST
 
 ## Read Products: `/products`
 

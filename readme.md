@@ -111,7 +111,7 @@
 3. Tách Popver Component, cập nhật PropTypes
 4. Code UI Header
 5. UnauthenticatedGuard và AuthenticatedGuard
-6. Logout
+6. Code chức năng Logout
 
 ## Clone Shopee trang chi tiết sản phẩm
 
