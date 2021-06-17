@@ -112,6 +112,7 @@
 4. Code UI Header
 5. UnauthenticatedGuard và AuthenticatedGuard
 6. Code chức năng Logout
+7. Code UI FilterPanel
 
 ## Clone Shopee trang chi tiết sản phẩm
 
