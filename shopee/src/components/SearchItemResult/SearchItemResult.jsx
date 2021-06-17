@@ -1,4 +1,5 @@
 import React from 'react'
+import ProductItem from '../ProductItem/ProductItem'
 import * as S from './searchItemResult.style'
 
 export default function SearchItemResult() {
@@ -51,6 +52,13 @@ export default function SearchItemResult() {
           </S.ButtonControllerNext>
         </S.MiniPageController>
       </S.SortBar>
+      <S.ProductList>
+        <ProductItem />
+        <ProductItem />
+        <ProductItem />
+        <ProductItem />
+        <ProductItem />
+      </S.ProductList>
     </div>
   )
 }

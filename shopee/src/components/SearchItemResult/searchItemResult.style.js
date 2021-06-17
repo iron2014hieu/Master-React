@@ -89,3 +89,7 @@ export const ButtonControllerNext = styled(ButtonController)`
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 `
+export const ProductList = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`
