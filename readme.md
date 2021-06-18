@@ -116,6 +116,8 @@
 8. Code UI SortBar
 9. Code UI ProductItem
 10. Code UI Pagination
+11. Xử lý get API Categories
+12. Xử lý get API Products
 
 ## Clone Shopee trang chi tiết sản phẩm
 
