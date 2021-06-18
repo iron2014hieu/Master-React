@@ -118,6 +118,7 @@
 10. Code UI Pagination
 11. Xử lý get API Categories
 12. Xử lý get API Products
+13. Xử lý filterPanel và đồng bộ hóa lên URL
 
 ## Clone Shopee trang chi tiết sản phẩm
 

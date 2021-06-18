@@ -2,8 +2,11 @@ import React from 'react'
 import Pagination from '../Pagination/Pagination'
 import ProductItem from '../ProductItem/ProductItem'
 import * as S from './searchItemResult.style'
+import PropTypes from 'prop-types'
 
-export default function SearchItemResult() {
+export default function SearchItemResult({ products }) {
+  const { products: productList } = products
+
   return (
     <div>
       <S.SortBar>
@@ -53,14 +56,21 @@ export default function SearchItemResult() {
           </S.ButtonControllerNext>
         </S.MiniPageController>
       </S.SortBar>
-      <S.ProductList>
-        <ProductItem />
-        <ProductItem />
-        <ProductItem />
-        <ProductItem />
-        <ProductItem />
-      </S.ProductList>
+      {productList && (
+        <S.ProductList>
+          {productList.map(product => (
+            <ProductItem key={product._id} product={product} />
+          ))}
+        </S.ProductList>
+      )}
       <Pagination />
     </div>
   )
+}
+
+SearchItemResult.propTypes = {
+  products: PropTypes.shape({
+    products: PropTypes.array,
+    pagination: PropTypes.object
+  })
 }
