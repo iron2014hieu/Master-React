@@ -119,6 +119,9 @@
 11. Xử lý get API Categories
 12. Xử lý get API Products
 13. Xử lý filterPanel và đồng bộ hóa lên URL
+14. Xử lý sortBar
+15. Xử lý Pagination
+16. Xử lý Search sản phẩm
 
 ## Clone Shopee trang chi tiết sản phẩm
 
